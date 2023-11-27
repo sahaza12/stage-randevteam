@@ -1,0 +1,33 @@
+
+        {if $language.iso_code == "fr"}
+          <div class="col-md-4 bloc-text-header">
+          <div class="txt1-header"> Un fabricant Français au service des collectivités,<br>des clubs, des particuliers et des professionnels.</div>
+              <div class="devis_rapide"><a href="https://www.dimatest.projets-omega.net/fr/commande-rapide?from=quotation">Devis rapide</a></div>
+            {*</div>
+            <div class="col-lg-6" style="text-align: left">*}
+              <div class="commande_rapide"><a href="https://www.dimatest.projets-omega.net/fr/commande-rapide">Commande rapide</a></div>
+            {*</div>*}
+          </div>
+          {else}
+            <div class="col-md-4 bloc-text-header">
+            <div class="txt1-header">  A French manufacturer serving communities,<br>clubs, individuals and professionals</div>
+            {*<div class="row">
+              <div class="col-lg-6" style="text-align: right">*}
+                <div class="devis_rapide"><a href="https://www.dimatest.projets-omega.net/en/quick-order?from=quotation">Quick quote</a></div>
+              {*</div>
+              <div class="col-lg-6" style="text-align: left">*}
+                <div class="commande_rapide"><a href="https://www.dimatest.projets-omega.net/en/quick-order">Quick order</a></div>
+              {*</div>*}
+            </div>
+        {/if}
+
+
+{** fanaovana traduction contenue selon ny langue miasa **}           
+        {if $language.iso_code == "fr"}
+        
+          {** eto n traduction fr**}
+        {else}
+        {** eto n traduction akotrany **}
+      {/if}
+      
+ 
