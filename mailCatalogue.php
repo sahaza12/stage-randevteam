@@ -102,7 +102,7 @@ try {
         $message_utilisateur = $infos_requete["message_utilisateur"];
 
         // Envoyez un e-mail à l'administrateur
-        $destinataire = "sahazarandry54@gmail.com";
+        $destinataire = "contact@eurodrapeau.com";
         $objet = "Requête d'un demande telechargement catalogue par ";
         $corps = "Un utilisateur a fait une requête sur la telechargement de catalogue.
 
